@@ -21,7 +21,9 @@
 		62573EF918F0C07A00B35D45 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62573EDB18F0C07A00B35D45 /* UIKit.framework */; };
 		62573F0118F0C07A00B35D45 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 62573EFF18F0C07A00B35D45 /* InfoPlist.strings */; };
 		62573F0318F0C07A00B35D45 /* Family_LinkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 62573F0218F0C07A00B35D45 /* Family_LinkTests.m */; };
-		629A694818F8998700A2883A /* holdinghandscover.png in Resources */ = {isa = PBXBuildFile; fileRef = 629A694718F8998700A2883A /* holdinghandscover.png */; };
+		628FB87418FAFF8C006113C1 /* holdinghandscover.png in Resources */ = {isa = PBXBuildFile; fileRef = 628FB87318FAFF8C006113C1 /* holdinghandscover.png */; };
+		62A8C61818FADF38007DEC12 /* img04.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 62A8C61718FADF38007DEC12 /* img04.jpg */; };
+		62A8C61A18FAE5E7007DEC12 /* holdinghands.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 62A8C61918FAE5E7007DEC12 /* holdinghands.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,7 +56,9 @@
 		62573EFE18F0C07A00B35D45 /* Family LinkTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Family LinkTests-Info.plist"; sourceTree = "<group>"; };
 		62573F0018F0C07A00B35D45 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		62573F0218F0C07A00B35D45 /* Family_LinkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Family_LinkTests.m; sourceTree = "<group>"; };
-		629A694718F8998700A2883A /* holdinghandscover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = holdinghandscover.png; path = ../../../../Desktop/Deb/holdinghandscover.png; sourceTree = "<group>"; };
+		628FB87318FAFF8C006113C1 /* holdinghandscover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = holdinghandscover.png; path = ../../../../Desktop/Deb/holdinghandscover.png; sourceTree = "<group>"; };
+		62A8C61718FADF38007DEC12 /* img04.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = img04.jpg; path = ../../leafaroma/images/img04.jpg; sourceTree = "<group>"; };
+		62A8C61918FAE5E7007DEC12 /* holdinghands.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = holdinghands.jpg; path = ../../../../Desktop/Deb/holdinghands.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +124,7 @@
 				62573EEC18F0C07A00B35D45 /* ViewController.h */,
 				62573EED18F0C07A00B35D45 /* ViewController.m */,
 				62573EEF18F0C07A00B35D45 /* Images.xcassets */,
+				628FB87318FAFF8C006113C1 /* holdinghandscover.png */,
 				62573EDE18F0C07A00B35D45 /* Supporting Files */,
 			);
 			path = "Family Link";
@@ -128,7 +133,8 @@
 		62573EDE18F0C07A00B35D45 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				629A694718F8998700A2883A /* holdinghandscover.png */,
+				62A8C61918FAE5E7007DEC12 /* holdinghands.jpg */,
+				62A8C61718FADF38007DEC12 /* img04.jpg */,
 				62573EDF18F0C07A00B35D45 /* Family Link-Info.plist */,
 				62573EE018F0C07A00B35D45 /* InfoPlist.strings */,
 				62573EE318F0C07A00B35D45 /* main.m */,
@@ -232,8 +238,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				62573EF018F0C07A00B35D45 /* Images.xcassets in Resources */,
+				62A8C61A18FAE5E7007DEC12 /* holdinghands.jpg in Resources */,
+				628FB87418FAFF8C006113C1 /* holdinghandscover.png in Resources */,
 				62573EE218F0C07A00B35D45 /* InfoPlist.strings in Resources */,
-				629A694818F8998700A2883A /* holdinghandscover.png in Resources */,
+				62A8C61818FADF38007DEC12 /* img04.jpg in Resources */,
 				62573EEB18F0C07A00B35D45 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
