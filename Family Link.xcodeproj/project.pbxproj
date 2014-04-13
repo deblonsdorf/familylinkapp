@@ -21,6 +21,7 @@
 		62573EF918F0C07A00B35D45 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62573EDB18F0C07A00B35D45 /* UIKit.framework */; };
 		62573F0118F0C07A00B35D45 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 62573EFF18F0C07A00B35D45 /* InfoPlist.strings */; };
 		62573F0318F0C07A00B35D45 /* Family_LinkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 62573F0218F0C07A00B35D45 /* Family_LinkTests.m */; };
+		629A694818F8998700A2883A /* holdinghandscover.png in Resources */ = {isa = PBXBuildFile; fileRef = 629A694718F8998700A2883A /* holdinghandscover.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		62573EFE18F0C07A00B35D45 /* Family LinkTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Family LinkTests-Info.plist"; sourceTree = "<group>"; };
 		62573F0018F0C07A00B35D45 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		62573F0218F0C07A00B35D45 /* Family_LinkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Family_LinkTests.m; sourceTree = "<group>"; };
+		629A694718F8998700A2883A /* holdinghandscover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = holdinghandscover.png; path = ../../../../Desktop/Deb/holdinghandscover.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +128,7 @@
 		62573EDE18F0C07A00B35D45 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				629A694718F8998700A2883A /* holdinghandscover.png */,
 				62573EDF18F0C07A00B35D45 /* Family Link-Info.plist */,
 				62573EE018F0C07A00B35D45 /* InfoPlist.strings */,
 				62573EE318F0C07A00B35D45 /* main.m */,
@@ -230,6 +233,7 @@
 			files = (
 				62573EF018F0C07A00B35D45 /* Images.xcassets in Resources */,
 				62573EE218F0C07A00B35D45 /* InfoPlist.strings in Resources */,
+				629A694818F8998700A2883A /* holdinghandscover.png in Resources */,
 				62573EEB18F0C07A00B35D45 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -456,6 +460,7 @@
 				62573F0818F0C07A00B35D45 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		62573F0918F0C07A00B35D45 /* Build configuration list for PBXNativeTarget "Family LinkTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +469,7 @@
 				62573F0B18F0C07A00B35D45 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
