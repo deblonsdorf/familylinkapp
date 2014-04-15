@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		625539AB18FD9C210005574F /* holdinghands.png in Resources */ = {isa = PBXBuildFile; fileRef = 625539AA18FD9C210005574F /* holdinghands.png */; };
 		62573ED818F0C07A00B35D45 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62573ED718F0C07A00B35D45 /* Foundation.framework */; };
 		62573EDA18F0C07A00B35D45 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62573ED918F0C07A00B35D45 /* CoreGraphics.framework */; };
 		62573EDC18F0C07A00B35D45 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62573EDB18F0C07A00B35D45 /* UIKit.framework */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		625539AA18FD9C210005574F /* holdinghands.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = holdinghands.png; path = ../../../../Desktop/Deb/holdinghands.png; sourceTree = "<group>"; };
 		62573ED418F0C07A00B35D45 /* Family Link.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Family Link.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		62573ED718F0C07A00B35D45 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		62573ED918F0C07A00B35D45 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -124,6 +126,7 @@
 				62573EEC18F0C07A00B35D45 /* ViewController.h */,
 				62573EED18F0C07A00B35D45 /* ViewController.m */,
 				62573EEF18F0C07A00B35D45 /* Images.xcassets */,
+				625539AA18FD9C210005574F /* holdinghands.png */,
 				628FB87318FAFF8C006113C1 /* holdinghandscover.png */,
 				62573EDE18F0C07A00B35D45 /* Supporting Files */,
 			);
@@ -242,6 +245,7 @@
 				628FB87418FAFF8C006113C1 /* holdinghandscover.png in Resources */,
 				62573EE218F0C07A00B35D45 /* InfoPlist.strings in Resources */,
 				62A8C61818FADF38007DEC12 /* img04.jpg in Resources */,
+				625539AB18FD9C210005574F /* holdinghands.png in Resources */,
 				62573EEB18F0C07A00B35D45 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
