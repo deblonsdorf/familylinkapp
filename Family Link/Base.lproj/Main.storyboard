@@ -19,10 +19,10 @@
             </objects>
             <point key="canvasLocation" x="78" y="-432"/>
         </scene>
-        <!--View Controller - Start-->
+        <!--Login Controller - Start-->
         <scene sceneID="I96-68-JYC">
             <objects>
-                <viewController id="1iH-Ll-JWP" sceneMemberID="viewController">
+                <viewController id="1iH-Ll-JWP" customClass="FLLoginController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="OyZ-hv-Fgq"/>
                         <viewControllerLayoutGuide type="bottom" id="5dA-tE-bvG"/>
@@ -86,10 +86,15 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="Start" id="vdJ-PX-8xH"/>
+                    <connections>
+                        <outlet property="email" destination="bC8-Rd-WR6" id="tQa-ec-LxT"/>
+                        <outlet property="password" destination="KVB-FY-98O" id="KMW-ZX-NGp"/>
+                        <outlet property="view" destination="BAu-ig-kUP" id="Gmc-it-PxT"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YJC-wl-8ie" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="237" y="216"/>
+            <point key="canvasLocation" x="129" y="244"/>
         </scene>
         <!--View Controller - First Time Set Up-->
         <scene sceneID="oKa-cX-mLx">
@@ -148,10 +153,10 @@
             </objects>
             <point key="canvasLocation" x="574" y="-408"/>
         </scene>
-        <!--Table View Controller - Pick A Link-->
+        <!--Pick Controller - Pick A Link-->
         <scene sceneID="WHr-9V-81k">
             <objects>
-                <tableViewController id="UEc-Pv-pAm" sceneMemberID="viewController">
+                <tableViewController id="UEc-Pv-pAm" customClass="FLPickController" sceneMemberID="viewController">
                     <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="58" sectionHeaderHeight="22" sectionFooterHeight="22" id="IfQ-70-Ya9">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -237,7 +242,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="holdinghands.png" width="183" height="182"/>
+        <image name="holdinghands.png" width="150" height="96"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>

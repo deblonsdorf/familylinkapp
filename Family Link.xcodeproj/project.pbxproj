@@ -25,6 +25,8 @@
 		628FB87418FAFF8C006113C1 /* holdinghandscover.png in Resources */ = {isa = PBXBuildFile; fileRef = 628FB87318FAFF8C006113C1 /* holdinghandscover.png */; };
 		62A8C61818FADF38007DEC12 /* img04.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 62A8C61718FADF38007DEC12 /* img04.jpg */; };
 		62A8C61A18FAE5E7007DEC12 /* holdinghands.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 62A8C61918FAE5E7007DEC12 /* holdinghands.jpg */; };
+		D3631D631902C80100D7C499 /* FLLoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3631D621902C80100D7C499 /* FLLoginController.m */; };
+		D3631D691902CD8800D7C499 /* FLPickController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3631D681902CD8800D7C499 /* FLPickController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +63,10 @@
 		628FB87318FAFF8C006113C1 /* holdinghandscover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = holdinghandscover.png; path = ../../../../Desktop/Deb/holdinghandscover.png; sourceTree = "<group>"; };
 		62A8C61718FADF38007DEC12 /* img04.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = img04.jpg; path = ../../leafaroma/images/img04.jpg; sourceTree = "<group>"; };
 		62A8C61918FAE5E7007DEC12 /* holdinghands.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = holdinghands.jpg; path = ../../../../Desktop/Deb/holdinghands.jpg; sourceTree = "<group>"; };
+		D3631D611902C80100D7C499 /* FLLoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLLoginController.h; sourceTree = "<group>"; };
+		D3631D621902C80100D7C499 /* FLLoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLLoginController.m; sourceTree = "<group>"; };
+		D3631D671902CD8800D7C499 /* FLPickController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLPickController.h; sourceTree = "<group>"; };
+		D3631D681902CD8800D7C499 /* FLPickController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLPickController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +135,10 @@
 				625539AA18FD9C210005574F /* holdinghands.png */,
 				628FB87318FAFF8C006113C1 /* holdinghandscover.png */,
 				62573EDE18F0C07A00B35D45 /* Supporting Files */,
+				D3631D611902C80100D7C499 /* FLLoginController.h */,
+				D3631D621902C80100D7C499 /* FLLoginController.m */,
+				D3631D671902CD8800D7C499 /* FLPickController.h */,
+				D3631D681902CD8800D7C499 /* FLPickController.m */,
 			);
 			path = "Family Link";
 			sourceTree = "<group>";
@@ -266,6 +276,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				62573EEE18F0C07A00B35D45 /* ViewController.m in Sources */,
+				D3631D631902C80100D7C499 /* FLLoginController.m in Sources */,
+				D3631D691902CD8800D7C499 /* FLPickController.m in Sources */,
 				62573EE818F0C07A00B35D45 /* AppDelegate.m in Sources */,
 				62573EE418F0C07A00B35D45 /* main.m in Sources */,
 			);
