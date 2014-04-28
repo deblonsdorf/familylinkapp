@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		625539AB18FD9C210005574F /* holdinghands.png in Resources */ = {isa = PBXBuildFile; fileRef = 625539AA18FD9C210005574F /* holdinghands.png */; };
+		625539AD1902D8C40005574F /* debpauldallas.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 625539AC1902D8C40005574F /* debpauldallas.jpg */; };
+		625539AF1902E15C0005574F /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 625539AE1902E15C0005574F /* View.xib */; };
 		62573ED818F0C07A00B35D45 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62573ED718F0C07A00B35D45 /* Foundation.framework */; };
 		62573EDA18F0C07A00B35D45 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62573ED918F0C07A00B35D45 /* CoreGraphics.framework */; };
 		62573EDC18F0C07A00B35D45 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62573EDB18F0C07A00B35D45 /* UIKit.framework */; };
@@ -22,9 +24,7 @@
 		62573EF918F0C07A00B35D45 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62573EDB18F0C07A00B35D45 /* UIKit.framework */; };
 		62573F0118F0C07A00B35D45 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 62573EFF18F0C07A00B35D45 /* InfoPlist.strings */; };
 		62573F0318F0C07A00B35D45 /* Family_LinkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 62573F0218F0C07A00B35D45 /* Family_LinkTests.m */; };
-		628FB87418FAFF8C006113C1 /* holdinghandscover.png in Resources */ = {isa = PBXBuildFile; fileRef = 628FB87318FAFF8C006113C1 /* holdinghandscover.png */; };
 		62A8C61818FADF38007DEC12 /* img04.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 62A8C61718FADF38007DEC12 /* img04.jpg */; };
-		62A8C61A18FAE5E7007DEC12 /* holdinghands.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 62A8C61918FAE5E7007DEC12 /* holdinghands.jpg */; };
 		D3631D631902C80100D7C499 /* FLLoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3631D621902C80100D7C499 /* FLLoginController.m */; };
 		D3631D691902CD8800D7C499 /* FLPickController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3631D681902CD8800D7C499 /* FLPickController.m */; };
 /* End PBXBuildFile section */
@@ -41,6 +41,8 @@
 
 /* Begin PBXFileReference section */
 		625539AA18FD9C210005574F /* holdinghands.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = holdinghands.png; path = ../../../../Desktop/Deb/holdinghands.png; sourceTree = "<group>"; };
+		625539AC1902D8C40005574F /* debpauldallas.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = debpauldallas.jpg; sourceTree = "<group>"; };
+		625539AE1902E15C0005574F /* View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = View.xib; sourceTree = "<group>"; };
 		62573ED418F0C07A00B35D45 /* Family Link.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Family Link.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		62573ED718F0C07A00B35D45 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		62573ED918F0C07A00B35D45 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -60,9 +62,7 @@
 		62573EFE18F0C07A00B35D45 /* Family LinkTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Family LinkTests-Info.plist"; sourceTree = "<group>"; };
 		62573F0018F0C07A00B35D45 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		62573F0218F0C07A00B35D45 /* Family_LinkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Family_LinkTests.m; sourceTree = "<group>"; };
-		628FB87318FAFF8C006113C1 /* holdinghandscover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = holdinghandscover.png; path = ../../../../Desktop/Deb/holdinghandscover.png; sourceTree = "<group>"; };
 		62A8C61718FADF38007DEC12 /* img04.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = img04.jpg; path = ../../leafaroma/images/img04.jpg; sourceTree = "<group>"; };
-		62A8C61918FAE5E7007DEC12 /* holdinghands.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = holdinghands.jpg; path = ../../../../Desktop/Deb/holdinghands.jpg; sourceTree = "<group>"; };
 		D3631D611902C80100D7C499 /* FLLoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLLoginController.h; sourceTree = "<group>"; };
 		D3631D621902C80100D7C499 /* FLLoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLLoginController.m; sourceTree = "<group>"; };
 		D3631D671902CD8800D7C499 /* FLPickController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLPickController.h; sourceTree = "<group>"; };
@@ -133,12 +133,12 @@
 				62573EED18F0C07A00B35D45 /* ViewController.m */,
 				62573EEF18F0C07A00B35D45 /* Images.xcassets */,
 				625539AA18FD9C210005574F /* holdinghands.png */,
-				628FB87318FAFF8C006113C1 /* holdinghandscover.png */,
 				62573EDE18F0C07A00B35D45 /* Supporting Files */,
 				D3631D611902C80100D7C499 /* FLLoginController.h */,
 				D3631D621902C80100D7C499 /* FLLoginController.m */,
 				D3631D671902CD8800D7C499 /* FLPickController.h */,
 				D3631D681902CD8800D7C499 /* FLPickController.m */,
+				625539AE1902E15C0005574F /* View.xib */,
 			);
 			path = "Family Link";
 			sourceTree = "<group>";
@@ -146,7 +146,7 @@
 		62573EDE18F0C07A00B35D45 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				62A8C61918FAE5E7007DEC12 /* holdinghands.jpg */,
+				625539AC1902D8C40005574F /* debpauldallas.jpg */,
 				62A8C61718FADF38007DEC12 /* img04.jpg */,
 				62573EDF18F0C07A00B35D45 /* Family Link-Info.plist */,
 				62573EE018F0C07A00B35D45 /* InfoPlist.strings */,
@@ -251,11 +251,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				62573EF018F0C07A00B35D45 /* Images.xcassets in Resources */,
-				62A8C61A18FAE5E7007DEC12 /* holdinghands.jpg in Resources */,
-				628FB87418FAFF8C006113C1 /* holdinghandscover.png in Resources */,
 				62573EE218F0C07A00B35D45 /* InfoPlist.strings in Resources */,
+				625539AF1902E15C0005574F /* View.xib in Resources */,
 				62A8C61818FADF38007DEC12 /* img04.jpg in Resources */,
 				625539AB18FD9C210005574F /* holdinghands.png in Resources */,
+				625539AD1902D8C40005574F /* debpauldallas.jpg in Resources */,
 				62573EEB18F0C07A00B35D45 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
