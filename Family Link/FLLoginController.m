@@ -31,8 +31,8 @@
     [super viewDidLoad];
     email.delegate = self;
     password.delegate = self;
-    [[self.navigationController navigationBar] setBarTintColor:[UIColor redColor]];
 
+    [[self.navigationController navigationBar] setBarTintColor:[UIColor purpleColor]];
     // Do any additional setup after loading the view.
 }
 
@@ -64,8 +64,8 @@
 
 - (BOOL)textFieldShouldReturn:(UITextField *)textField{
     if(textField == password) {
-        UIViewController *c = [[FLPickController alloc] init];
-        [self.navigationController pushViewController:c animated:YES];
+        [self performSegueWithIdentifier:@"loggedin" sender:self];
+        return YES;
     } else {
         [password becomeFirstResponder];
     }
@@ -73,6 +73,20 @@
     return YES;
 }
 
+-(BOOL)shouldPerformSegueWithIdentifier:(NSString *)identifier sender:(id)sender
+{
+    if([identifier isEqualToString:@"loggedin"] && ![password isFirstResponder]) {
+        return NO;
+    }
+    return YES;
+}
+
+
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    [email resignFirstResponder];
+    [password resignFirstResponder];
+}
 
 -(void)keyboardWillShow {
     // Animate the current view out of the way
@@ -89,7 +103,6 @@
 }
 
 -(void)keyboardWillHide {
-    
     if (keyboardShowed)
     {
         keyboardShowed = NO;
@@ -107,36 +120,18 @@
     [UIView setAnimationDuration:0.3]; // if you want to slide up the view
     
     CGRect rect = self.view.frame;
+
     if (movedUp)
     {
-        // 1. move the view's origin up so that the text field that will be hidden come above the keyboard
-        // 2. increase the size of the view so that the area behind the keyboard is covered up.
-        
-        
-        if([UIApplication sharedApplication].statusBarOrientation == UIDeviceOrientationLandscapeLeft)
-        {
-            //set Flag for left
-            rect.origin.x += kOFFSET_FOR_KEYBOARD;
-        }
-        else if([UIApplication sharedApplication].statusBarOrientation == UIDeviceOrientationLandscapeRight)
-        {
-            rect.origin.x -= kOFFSET_FOR_KEYBOARD;
-        }
+        rect.origin.y -= kOFFSET_FOR_KEYBOARD;
+        rect.size.height += 100;
     }
     else
     {
-        // revert back to the normal state.
-        
-        if([UIApplication sharedApplication].statusBarOrientation == UIDeviceOrientationLandscapeLeft)
-        {
-            //set Flag for left
-            rect.origin.x -= kOFFSET_FOR_KEYBOARD;
-        }
-        else if([UIApplication sharedApplication].statusBarOrientation == UIDeviceOrientationLandscapeRight)
-        {
-            rect.origin.x += kOFFSET_FOR_KEYBOARD;
-        }
+        rect.origin.y += kOFFSET_FOR_KEYBOARD;
+        rect.size.height -= 100;
     }
+
     self.view.frame = rect;
     
     [UIView commitAnimations];
