@@ -27,6 +27,7 @@
 		62A8C61818FADF38007DEC12 /* img04.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 62A8C61718FADF38007DEC12 /* img04.jpg */; };
 		62D1FDAB19143FB30022F036 /* redguy.png in Resources */ = {isa = PBXBuildFile; fileRef = 62D1FDAA19143FB30022F036 /* redguy.png */; };
 		62D1FDAD191444770022F036 /* homebutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 62D1FDAC191444770022F036 /* homebutton.png */; };
+		62D1FDAF1915ABF70022F036 /* linkbackground3.png in Resources */ = {isa = PBXBuildFile; fileRef = 62D1FDAE1915ABF70022F036 /* linkbackground3.png */; };
 		D3631D631902C80100D7C499 /* FLLoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3631D621902C80100D7C499 /* FLLoginController.m */; };
 		D3631D691902CD8800D7C499 /* FLPickController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3631D681902CD8800D7C499 /* FLPickController.m */; };
 		D39D56661916A94B006E569D /* Family.m in Sources */ = {isa = PBXBuildFile; fileRef = D39D56651916A94B006E569D /* Family.m */; };
@@ -69,6 +70,7 @@
 		62A8C61718FADF38007DEC12 /* img04.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = img04.jpg; path = ../../leafaroma/images/img04.jpg; sourceTree = "<group>"; };
 		62D1FDAA19143FB30022F036 /* redguy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = redguy.png; sourceTree = "<group>"; };
 		62D1FDAC191444770022F036 /* homebutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = homebutton.png; sourceTree = "<group>"; };
+		62D1FDAE1915ABF70022F036 /* linkbackground3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = linkbackground3.png; sourceTree = "<group>"; };
 		D3631D611902C80100D7C499 /* FLLoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLLoginController.h; sourceTree = "<group>"; };
 		D3631D621902C80100D7C499 /* FLLoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLLoginController.m; sourceTree = "<group>"; };
 		D3631D671902CD8800D7C499 /* FLPickController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLPickController.h; sourceTree = "<group>"; };
@@ -137,6 +139,7 @@
 			isa = PBXGroup;
 			children = (
 				D39D56631916A926006E569D /* Models */,
+				62D1FDAE1915ABF70022F036 /* linkbackground3.png */,
 				62D1FDAC191444770022F036 /* homebutton.png */,
 				62D1FDAA19143FB30022F036 /* redguy.png */,
 				62573EE618F0C07A00B35D45 /* AppDelegate.h */,
@@ -275,6 +278,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				62573EF018F0C07A00B35D45 /* Images.xcassets in Resources */,
+				62D1FDAF1915ABF70022F036 /* linkbackground3.png in Resources */,
 				62573EE218F0C07A00B35D45 /* InfoPlist.strings in Resources */,
 				625539AF1902E15C0005574F /* View.xib in Resources */,
 				62D1FDAD191444770022F036 /* homebutton.png in Resources */,
