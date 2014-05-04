@@ -31,6 +31,8 @@
     [super viewDidLoad];
     email.delegate = self;
     password.delegate = self;
+    [[self.navigationController navigationBar] setBarTintColor:[UIColor redColor]];
+
     // Do any additional setup after loading the view.
 }
 

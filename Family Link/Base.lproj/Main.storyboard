@@ -193,6 +193,9 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="view" destination="IfQ-70-Ya9" id="ssY-wp-Tka"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lAi-I5-Jgn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
