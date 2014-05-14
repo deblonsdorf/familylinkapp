@@ -77,7 +77,7 @@
             [cell setTag:i];
             
             if ([families count] != 0) {
-                UITextField* tf = (UITextField*)[cell viewWithTag:2];
+                UILabel* tf = (UILabel*)[cell viewWithTag:2];
                 tf.text =  [families[i-1] objectForKey:@"name"];
             }
             

@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		625539AB18FD9C210005574F /* holdinghands.png in Resources */ = {isa = PBXBuildFile; fileRef = 625539AA18FD9C210005574F /* holdinghands.png */; };
 		625539AD1902D8C40005574F /* debpauldallas.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 625539AC1902D8C40005574F /* debpauldallas.jpg */; };
 		625539AF1902E15C0005574F /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 625539AE1902E15C0005574F /* View.xib */; };
 		62573ED818F0C07A00B35D45 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62573ED718F0C07A00B35D45 /* Foundation.framework */; };
@@ -28,6 +27,12 @@
 		62D1FDAB19143FB30022F036 /* redguy.png in Resources */ = {isa = PBXBuildFile; fileRef = 62D1FDAA19143FB30022F036 /* redguy.png */; };
 		62D1FDAD191444770022F036 /* homebutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 62D1FDAC191444770022F036 /* homebutton.png */; };
 		62D1FDAF1915ABF70022F036 /* linkbackground3.png in Resources */ = {isa = PBXBuildFile; fileRef = 62D1FDAE1915ABF70022F036 /* linkbackground3.png */; };
+		62D6BFEE1923FEDB001F8396 /* holdinghandsfinal3.png in Resources */ = {isa = PBXBuildFile; fileRef = 62D6BFED1923FEDB001F8396 /* holdinghandsfinal3.png */; };
+		62D6BFF41924052C001F8396 /* submitbutton1.png in Resources */ = {isa = PBXBuildFile; fileRef = 62D6BFF31924052C001F8396 /* submitbutton1.png */; };
+		62D6BFF619240537001F8396 /* closebutton1.png in Resources */ = {isa = PBXBuildFile; fileRef = 62D6BFF519240537001F8396 /* closebutton1.png */; };
+		62D6BFF81924102E001F8396 /* donebutton1.png in Resources */ = {isa = PBXBuildFile; fileRef = 62D6BFF71924102E001F8396 /* donebutton1.png */; };
+		62D6BFFA19241709001F8396 /* cancelbutton1.png in Resources */ = {isa = PBXBuildFile; fileRef = 62D6BFF919241709001F8396 /* cancelbutton1.png */; };
+		62D6BFFC19241C1B001F8396 /* newcancelbutton1.png in Resources */ = {isa = PBXBuildFile; fileRef = 62D6BFFB19241C1B001F8396 /* newcancelbutton1.png */; };
 		D3631D631902C80100D7C499 /* FLLoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3631D621902C80100D7C499 /* FLLoginController.m */; };
 		D3631D691902CD8800D7C499 /* FLPickController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3631D681902CD8800D7C499 /* FLPickController.m */; };
 		D39D56661916A94B006E569D /* Family.m in Sources */ = {isa = PBXBuildFile; fileRef = D39D56651916A94B006E569D /* Family.m */; };
@@ -45,7 +50,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		625539AA18FD9C210005574F /* holdinghands.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = holdinghands.png; path = ../../../../Desktop/Deb/holdinghands.png; sourceTree = "<group>"; };
 		625539AC1902D8C40005574F /* debpauldallas.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = debpauldallas.jpg; sourceTree = "<group>"; };
 		625539AE1902E15C0005574F /* View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = View.xib; sourceTree = "<group>"; };
 		62573ED418F0C07A00B35D45 /* Family Link.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Family Link.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -71,6 +75,12 @@
 		62D1FDAA19143FB30022F036 /* redguy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = redguy.png; sourceTree = "<group>"; };
 		62D1FDAC191444770022F036 /* homebutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = homebutton.png; sourceTree = "<group>"; };
 		62D1FDAE1915ABF70022F036 /* linkbackground3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = linkbackground3.png; sourceTree = "<group>"; };
+		62D6BFED1923FEDB001F8396 /* holdinghandsfinal3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = holdinghandsfinal3.png; sourceTree = "<group>"; };
+		62D6BFF31924052C001F8396 /* submitbutton1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = submitbutton1.png; sourceTree = "<group>"; };
+		62D6BFF519240537001F8396 /* closebutton1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = closebutton1.png; sourceTree = "<group>"; };
+		62D6BFF71924102E001F8396 /* donebutton1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = donebutton1.png; sourceTree = "<group>"; };
+		62D6BFF919241709001F8396 /* cancelbutton1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cancelbutton1.png; sourceTree = "<group>"; };
+		62D6BFFB19241C1B001F8396 /* newcancelbutton1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = newcancelbutton1.png; sourceTree = "<group>"; };
 		D3631D611902C80100D7C499 /* FLLoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLLoginController.h; sourceTree = "<group>"; };
 		D3631D621902C80100D7C499 /* FLLoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLLoginController.m; sourceTree = "<group>"; };
 		D3631D671902CD8800D7C499 /* FLPickController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLPickController.h; sourceTree = "<group>"; };
@@ -138,19 +148,24 @@
 		62573EDD18F0C07A00B35D45 /* Family Link */ = {
 			isa = PBXGroup;
 			children = (
+				62D6BFFB19241C1B001F8396 /* newcancelbutton1.png */,
+				62D6BFF919241709001F8396 /* cancelbutton1.png */,
+				62D6BFF71924102E001F8396 /* donebutton1.png */,
+				62D6BFF519240537001F8396 /* closebutton1.png */,
+				62D6BFF31924052C001F8396 /* submitbutton1.png */,
+				62D6BFED1923FEDB001F8396 /* holdinghandsfinal3.png */,
 				D39D56631916A926006E569D /* Models */,
 				62D1FDAE1915ABF70022F036 /* linkbackground3.png */,
 				62D1FDAC191444770022F036 /* homebutton.png */,
 				62D1FDAA19143FB30022F036 /* redguy.png */,
-				62573EE618F0C07A00B35D45 /* AppDelegate.h */,
 				62573EE718F0C07A00B35D45 /* AppDelegate.m */,
 				62573EE918F0C07A00B35D45 /* Main.storyboard */,
 				62573EEC18F0C07A00B35D45 /* ViewController.h */,
 				62573EED18F0C07A00B35D45 /* ViewController.m */,
 				62573EEF18F0C07A00B35D45 /* Images.xcassets */,
-				625539AA18FD9C210005574F /* holdinghands.png */,
 				62573EDE18F0C07A00B35D45 /* Supporting Files */,
 				D3631D611902C80100D7C499 /* FLLoginController.h */,
+				62573EE618F0C07A00B35D45 /* AppDelegate.h */,
 				D3631D621902C80100D7C499 /* FLLoginController.m */,
 				D3631D671902CD8800D7C499 /* FLPickController.h */,
 				D3631D681902CD8800D7C499 /* FLPickController.m */,
@@ -278,14 +293,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				62573EF018F0C07A00B35D45 /* Images.xcassets in Resources */,
+				62D6BFEE1923FEDB001F8396 /* holdinghandsfinal3.png in Resources */,
 				62D1FDAF1915ABF70022F036 /* linkbackground3.png in Resources */,
 				62573EE218F0C07A00B35D45 /* InfoPlist.strings in Resources */,
 				625539AF1902E15C0005574F /* View.xib in Resources */,
 				62D1FDAD191444770022F036 /* homebutton.png in Resources */,
 				62A8C61818FADF38007DEC12 /* img04.jpg in Resources */,
-				625539AB18FD9C210005574F /* holdinghands.png in Resources */,
+				62D6BFF81924102E001F8396 /* donebutton1.png in Resources */,
 				62D1FDAB19143FB30022F036 /* redguy.png in Resources */,
+				62D6BFFA19241709001F8396 /* cancelbutton1.png in Resources */,
+				62D6BFF41924052C001F8396 /* submitbutton1.png in Resources */,
 				625539AD1902D8C40005574F /* debpauldallas.jpg in Resources */,
+				62D6BFFC19241C1B001F8396 /* newcancelbutton1.png in Resources */,
+				62D6BFF619240537001F8396 /* closebutton1.png in Resources */,
 				62573EEB18F0C07A00B35D45 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
