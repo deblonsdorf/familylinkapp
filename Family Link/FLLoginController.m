@@ -32,7 +32,7 @@
     email.delegate = self;
     password.delegate = self;
 
-    [[self.navigationController navigationBar] setBarTintColor:[UIColor purpleColor]];
+    [[self.navigationController navigationBar] setBarTintColor:[UIColor grayColor]];
     // Do any additional setup after loading the view.
 }
 

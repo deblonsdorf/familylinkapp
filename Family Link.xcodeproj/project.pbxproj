@@ -33,6 +33,16 @@
 		62D6BFF81924102E001F8396 /* donebutton1.png in Resources */ = {isa = PBXBuildFile; fileRef = 62D6BFF71924102E001F8396 /* donebutton1.png */; };
 		62D6BFFA19241709001F8396 /* cancelbutton1.png in Resources */ = {isa = PBXBuildFile; fileRef = 62D6BFF919241709001F8396 /* cancelbutton1.png */; };
 		62D6BFFC19241C1B001F8396 /* newcancelbutton1.png in Resources */ = {isa = PBXBuildFile; fileRef = 62D6BFFB19241C1B001F8396 /* newcancelbutton1.png */; };
+		62D6BFFE19251FF7001F8396 /* redcancel.png in Resources */ = {isa = PBXBuildFile; fileRef = 62D6BFFD19251FF7001F8396 /* redcancel.png */; };
+		62D6C00019252160001F8396 /* graycancel.png in Resources */ = {isa = PBXBuildFile; fileRef = 62D6BFFF19252160001F8396 /* graycancel.png */; };
+		62D6C002192523EB001F8396 /* grayfirsttimehere1.png in Resources */ = {isa = PBXBuildFile; fileRef = 62D6C001192523EB001F8396 /* grayfirsttimehere1.png */; };
+		62D6C004192532AB001F8396 /* purplerectangle.png in Resources */ = {isa = PBXBuildFile; fileRef = 62D6C003192532AB001F8396 /* purplerectangle.png */; };
+		62D6C00619253A58001F8396 /* purpleclose.png in Resources */ = {isa = PBXBuildFile; fileRef = 62D6C00519253A58001F8396 /* purpleclose.png */; };
+		62D6C00819253A68001F8396 /* purpledone.png in Resources */ = {isa = PBXBuildFile; fileRef = 62D6C00719253A68001F8396 /* purpledone.png */; };
+		62D6C00A19253A76001F8396 /* purplesubmit.png in Resources */ = {isa = PBXBuildFile; fileRef = 62D6C00919253A76001F8396 /* purplesubmit.png */; };
+		62D6C00C19253DC9001F8396 /* graysubmit.png in Resources */ = {isa = PBXBuildFile; fileRef = 62D6C00B19253DC9001F8396 /* graysubmit.png */; };
+		62D6C00E19253DD7001F8396 /* greyclose.png in Resources */ = {isa = PBXBuildFile; fileRef = 62D6C00D19253DD7001F8396 /* greyclose.png */; };
+		62D6C01019253E03001F8396 /* graydone.png in Resources */ = {isa = PBXBuildFile; fileRef = 62D6C00F19253E03001F8396 /* graydone.png */; };
 		D3631D631902C80100D7C499 /* FLLoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3631D621902C80100D7C499 /* FLLoginController.m */; };
 		D3631D691902CD8800D7C499 /* FLPickController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3631D681902CD8800D7C499 /* FLPickController.m */; };
 		D39D56661916A94B006E569D /* Family.m in Sources */ = {isa = PBXBuildFile; fileRef = D39D56651916A94B006E569D /* Family.m */; };
@@ -81,6 +91,16 @@
 		62D6BFF71924102E001F8396 /* donebutton1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = donebutton1.png; sourceTree = "<group>"; };
 		62D6BFF919241709001F8396 /* cancelbutton1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cancelbutton1.png; sourceTree = "<group>"; };
 		62D6BFFB19241C1B001F8396 /* newcancelbutton1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = newcancelbutton1.png; sourceTree = "<group>"; };
+		62D6BFFD19251FF7001F8396 /* redcancel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = redcancel.png; sourceTree = "<group>"; };
+		62D6BFFF19252160001F8396 /* graycancel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = graycancel.png; sourceTree = "<group>"; };
+		62D6C001192523EB001F8396 /* grayfirsttimehere1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grayfirsttimehere1.png; sourceTree = "<group>"; };
+		62D6C003192532AB001F8396 /* purplerectangle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = purplerectangle.png; sourceTree = "<group>"; };
+		62D6C00519253A58001F8396 /* purpleclose.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = purpleclose.png; sourceTree = "<group>"; };
+		62D6C00719253A68001F8396 /* purpledone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = purpledone.png; sourceTree = "<group>"; };
+		62D6C00919253A76001F8396 /* purplesubmit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = purplesubmit.png; sourceTree = "<group>"; };
+		62D6C00B19253DC9001F8396 /* graysubmit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = graysubmit.png; sourceTree = "<group>"; };
+		62D6C00D19253DD7001F8396 /* greyclose.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = greyclose.png; sourceTree = "<group>"; };
+		62D6C00F19253E03001F8396 /* graydone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = graydone.png; sourceTree = "<group>"; };
 		D3631D611902C80100D7C499 /* FLLoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLLoginController.h; sourceTree = "<group>"; };
 		D3631D621902C80100D7C499 /* FLLoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLLoginController.m; sourceTree = "<group>"; };
 		D3631D671902CD8800D7C499 /* FLPickController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLPickController.h; sourceTree = "<group>"; };
@@ -148,6 +168,16 @@
 		62573EDD18F0C07A00B35D45 /* Family Link */ = {
 			isa = PBXGroup;
 			children = (
+				62D6C00F19253E03001F8396 /* graydone.png */,
+				62D6C00D19253DD7001F8396 /* greyclose.png */,
+				62D6C00B19253DC9001F8396 /* graysubmit.png */,
+				62D6C00919253A76001F8396 /* purplesubmit.png */,
+				62D6C00719253A68001F8396 /* purpledone.png */,
+				62D6C00519253A58001F8396 /* purpleclose.png */,
+				62D6C003192532AB001F8396 /* purplerectangle.png */,
+				62D6C001192523EB001F8396 /* grayfirsttimehere1.png */,
+				62D6BFFF19252160001F8396 /* graycancel.png */,
+				62D6BFFD19251FF7001F8396 /* redcancel.png */,
 				62D6BFFB19241C1B001F8396 /* newcancelbutton1.png */,
 				62D6BFF919241709001F8396 /* cancelbutton1.png */,
 				62D6BFF71924102E001F8396 /* donebutton1.png */,
@@ -292,14 +322,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62D6C00819253A68001F8396 /* purpledone.png in Resources */,
+				62D6C00619253A58001F8396 /* purpleclose.png in Resources */,
 				62573EF018F0C07A00B35D45 /* Images.xcassets in Resources */,
+				62D6C00C19253DC9001F8396 /* graysubmit.png in Resources */,
+				62D6C00A19253A76001F8396 /* purplesubmit.png in Resources */,
+				62D6C00E19253DD7001F8396 /* greyclose.png in Resources */,
+				62D6BFFE19251FF7001F8396 /* redcancel.png in Resources */,
 				62D6BFEE1923FEDB001F8396 /* holdinghandsfinal3.png in Resources */,
+				62D6C01019253E03001F8396 /* graydone.png in Resources */,
 				62D1FDAF1915ABF70022F036 /* linkbackground3.png in Resources */,
 				62573EE218F0C07A00B35D45 /* InfoPlist.strings in Resources */,
 				625539AF1902E15C0005574F /* View.xib in Resources */,
 				62D1FDAD191444770022F036 /* homebutton.png in Resources */,
 				62A8C61818FADF38007DEC12 /* img04.jpg in Resources */,
+				62D6C002192523EB001F8396 /* grayfirsttimehere1.png in Resources */,
 				62D6BFF81924102E001F8396 /* donebutton1.png in Resources */,
+				62D6C00019252160001F8396 /* graycancel.png in Resources */,
 				62D1FDAB19143FB30022F036 /* redguy.png in Resources */,
 				62D6BFFA19241709001F8396 /* cancelbutton1.png in Resources */,
 				62D6BFF41924052C001F8396 /* submitbutton1.png in Resources */,
@@ -307,6 +346,7 @@
 				62D6BFFC19241C1B001F8396 /* newcancelbutton1.png in Resources */,
 				62D6BFF619240537001F8396 /* closebutton1.png in Resources */,
 				62573EEB18F0C07A00B35D45 /* Main.storyboard in Resources */,
+				62D6C004192532AB001F8396 /* purplerectangle.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
