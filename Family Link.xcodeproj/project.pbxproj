@@ -47,6 +47,9 @@
 		D3631D691902CD8800D7C499 /* FLPickController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3631D681902CD8800D7C499 /* FLPickController.m */; };
 		D39D56661916A94B006E569D /* Family.m in Sources */ = {isa = PBXBuildFile; fileRef = D39D56651916A94B006E569D /* Family.m */; };
 		D39D56691916BB37006E569D /* FLAddFamilyController.m in Sources */ = {isa = PBXBuildFile; fileRef = D39D56681916BB37006E569D /* FLAddFamilyController.m */; };
+		D3CB35A819311360008BBA18 /* FLConnectionsController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3CB35A719311360008BBA18 /* FLConnectionsController.m */; };
+		D3CB35AB19312035008BBA18 /* FLAddConnectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3CB35AA19312035008BBA18 /* FLAddConnectionController.m */; };
+		D3CB35AE193124D9008BBA18 /* FLShowConnectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3CB35AD193124D9008BBA18 /* FLShowConnectionController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -109,6 +112,12 @@
 		D39D56651916A94B006E569D /* Family.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Family.m; sourceTree = "<group>"; };
 		D39D56671916BB37006E569D /* FLAddFamilyController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLAddFamilyController.h; sourceTree = "<group>"; };
 		D39D56681916BB37006E569D /* FLAddFamilyController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLAddFamilyController.m; sourceTree = "<group>"; };
+		D3CB35A619311360008BBA18 /* FLConnectionsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLConnectionsController.h; sourceTree = "<group>"; };
+		D3CB35A719311360008BBA18 /* FLConnectionsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLConnectionsController.m; sourceTree = "<group>"; };
+		D3CB35A919312035008BBA18 /* FLAddConnectionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLAddConnectionController.h; sourceTree = "<group>"; };
+		D3CB35AA19312035008BBA18 /* FLAddConnectionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLAddConnectionController.m; sourceTree = "<group>"; };
+		D3CB35AC193124D9008BBA18 /* FLShowConnectionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLShowConnectionController.h; sourceTree = "<group>"; };
+		D3CB35AD193124D9008BBA18 /* FLShowConnectionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLShowConnectionController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -190,6 +199,10 @@
 				62D1FDAA19143FB30022F036 /* redguy.png */,
 				62573EE718F0C07A00B35D45 /* AppDelegate.m */,
 				62573EE918F0C07A00B35D45 /* Main.storyboard */,
+				D3CB35AC193124D9008BBA18 /* FLShowConnectionController.h */,
+				D3CB35AD193124D9008BBA18 /* FLShowConnectionController.m */,
+				D3CB35A619311360008BBA18 /* FLConnectionsController.h */,
+				D3CB35A719311360008BBA18 /* FLConnectionsController.m */,
 				62573EEC18F0C07A00B35D45 /* ViewController.h */,
 				62573EED18F0C07A00B35D45 /* ViewController.m */,
 				62573EEF18F0C07A00B35D45 /* Images.xcassets */,
@@ -202,6 +215,8 @@
 				625539AE1902E15C0005574F /* View.xib */,
 				D39D56671916BB37006E569D /* FLAddFamilyController.h */,
 				D39D56681916BB37006E569D /* FLAddFamilyController.m */,
+				D3CB35A919312035008BBA18 /* FLAddConnectionController.h */,
+				D3CB35AA19312035008BBA18 /* FLAddConnectionController.m */,
 			);
 			path = "Family Link";
 			sourceTree = "<group>";
@@ -367,9 +382,12 @@
 			files = (
 				62573EEE18F0C07A00B35D45 /* ViewController.m in Sources */,
 				D39D56661916A94B006E569D /* Family.m in Sources */,
+				D3CB35AE193124D9008BBA18 /* FLShowConnectionController.m in Sources */,
 				D39D56691916BB37006E569D /* FLAddFamilyController.m in Sources */,
 				D3631D631902C80100D7C499 /* FLLoginController.m in Sources */,
 				D3631D691902CD8800D7C499 /* FLPickController.m in Sources */,
+				D3CB35A819311360008BBA18 /* FLConnectionsController.m in Sources */,
+				D3CB35AB19312035008BBA18 /* FLAddConnectionController.m in Sources */,
 				62573EE818F0C07A00B35D45 /* AppDelegate.m in Sources */,
 				62573EE418F0C07A00B35D45 /* main.m in Sources */,
 			);

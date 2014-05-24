@@ -12,4 +12,5 @@
 
 +(NSMutableArray*)all;
 +(void)addFamily:(NSString *)name;
++(void)addConnection:(NSMutableDictionary *)con forFamily:(NSDictionary *)fam;
 @end

@@ -8,6 +8,7 @@
 
 #import "FLPickController.h"
 #import "Family.h"
+#import "FLConnectionsController.h"
 
 @interface FLPickController ()
 
@@ -48,6 +49,15 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    NSMutableDictionary* family;
+    NSIndexPath *selectedRowIndexPath = [self.tableView indexPathForSelectedRow];
+    family = families[selectedRowIndexPath.row-1];
+    [segue.destinationViewController setFamily: family];
+    [segue.destinationViewController setTitle: [family valueForKey:@"name"]];
+}
+
 #pragma mark - Table view data source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
@@ -64,17 +74,15 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
+    static NSString *FirstCellIdentifier = @"picklinkheader";
     static NSString *CellIdentifier = @"enterfamilyname";
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     NSInteger i = indexPath.row;
-
     
     if(i == 0) {
-        cell = [tableView dequeueReusableCellWithIdentifier:@"picklinkheader"];
+        cell = [tableView dequeueReusableCellWithIdentifier:FirstCellIdentifier];
     } else {
         if(cell) {
-            
-            [cell setTag:i];
             
             if ([families count] != 0) {
                 UILabel* tf = (UILabel*)[cell viewWithTag:2];
@@ -114,7 +122,7 @@ forRowAtIndexPath:(NSIndexPath *)indexPath {
     NSUInteger count = [families count];
     
     if (row < count) {
-        [families removeObjectAtIndex:row];
+        [families removeObjectAtIndex:row-1];
         [self.tableView reloadData];
     }
     

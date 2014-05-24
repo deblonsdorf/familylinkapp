@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13C1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="gpj-7a-I3M">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13C64" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="gpj-7a-I3M">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
     </dependencies>
@@ -211,11 +211,11 @@
                                     <rect key="frame" x="0.0" y="0.0" width="287" height="65"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <imageView userInteractionEnabled="NO" tag="1" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="holdinghandsfinal3.png" translatesAutoresizingMaskIntoConstraints="NO" id="rML-DC-VUP">
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="holdinghandsfinal3.png" translatesAutoresizingMaskIntoConstraints="NO" id="rML-DC-VUP">
                                             <rect key="frame" x="10" y="7" width="49" height="44"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         </imageView>
-                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Family Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lk7-Bs-fKt">
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" tag="2" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Family Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lk7-Bs-fKt">
                                             <rect key="frame" x="77" y="18" width="160" height="21"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -312,10 +312,10 @@
             </objects>
             <point key="canvasLocation" x="1252" y="168"/>
         </scene>
-        <!--Table View Controller - Family Name-->
+        <!--Connections Controller - Family Name-->
         <scene sceneID="sew-1s-kcf">
             <objects>
-                <tableViewController id="tMq-4A-UV2" sceneMemberID="viewController">
+                <tableViewController id="tMq-4A-UV2" customClass="FLConnectionsController" sceneMemberID="viewController">
                     <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="Oss-n7-wJ8">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -387,10 +387,10 @@
             </objects>
             <point key="canvasLocation" x="745" y="992"/>
         </scene>
-        <!--View Controller - Connection-->
+        <!--Show Connection Controller - Connection-->
         <scene sceneID="NC4-95-eOb">
             <objects>
-                <viewController id="gbr-sO-fU7" sceneMemberID="viewController">
+                <viewController id="gbr-sO-fU7" customClass="FLShowConnectionController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="3LJ-jn-FRk"/>
                         <viewControllerLayoutGuide type="bottom" id="zO0-GT-4Ae"/>
@@ -529,15 +529,18 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="name" destination="JRv-fS-SDw" id="9Nv-b3-cLo"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ugR-8v-byr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1150" y="1574"/>
         </scene>
-        <!--View Controller-->
+        <!--Add Connection Controller-->
         <scene sceneID="WAe-bu-8er">
             <objects>
-                <viewController id="pHx-Sj-kuX" sceneMemberID="viewController">
+                <viewController id="pHx-Sj-kuX" customClass="FLAddConnectionController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="2o5-fh-pVA"/>
                         <viewControllerLayoutGuide type="bottom" id="DZp-fJ-03t"/>
@@ -679,6 +682,9 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="sHG-Vb-U77"/>
+                    <connections>
+                        <outlet property="name_field" destination="wAV-Wj-1Di" id="2vd-um-aJW"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WnE-2f-vmz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
