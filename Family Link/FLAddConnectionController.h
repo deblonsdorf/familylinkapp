@@ -11,6 +11,7 @@
 @interface FLAddConnectionController : UIViewController<UITextFieldDelegate>
 {
     IBOutlet UITextField *name_field;
+    IBOutlet UITextField *mobile_field;
 }
 
 @property(nonatomic, strong) NSDictionary* family;
