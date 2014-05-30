@@ -20,7 +20,7 @@ static NSMutableArray *_fams;
 
 +(NSMutableArray*)fams
 {
-    NSMutableDictionary *con1 = [NSMutableDictionary dictionaryWithObjectsAndKeys:@"Brian", @"name", nil];
+    NSMutableDictionary *con1 = [NSMutableDictionary dictionaryWithObjectsAndKeys:@"Brian", @"name", @"650-954-0367", @"mobile", @"brian@looprecur.com", @"email", @"2320 Wooster Ave", @"address1", @"Belmont, CA  94002", @"address2", @"04/22/1982", @"birthday", @"09/04/2013", @"anniversary", nil];
     NSMutableDictionary *con2 = [NSMutableDictionary dictionaryWithObjectsAndKeys:@"Tracy", @"name", nil];
     NSMutableDictionary *con8 = [NSMutableDictionary dictionaryWithObjectsAndKeys:@"Paul", @"name", nil];
     NSMutableDictionary *con9 = [NSMutableDictionary dictionaryWithObjectsAndKeys:@"Debbie", @"name", nil];

@@ -11,6 +11,7 @@
 @interface FLConnectionsController : UITableViewController
 {
     NSMutableArray *connections;
+    UIView *customHeaderView;
 }
 
 @property(nonatomic, strong) NSDictionary* family;
