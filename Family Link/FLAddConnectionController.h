@@ -12,6 +12,13 @@
 {
     IBOutlet UITextField *name_field;
     IBOutlet UITextField *mobile_field;
+    IBOutlet UITextField *email_address;
+    IBOutlet UITextField *address1;
+    IBOutlet UITextField *address2;
+    IBOutlet UITextField *address3;
+    IBOutlet UITextField *birthday;
+    IBOutlet UITextField *anniversary;
+    IBOutlet UITextField *other;
 }
 
 @property(nonatomic, strong) NSDictionary* family;
