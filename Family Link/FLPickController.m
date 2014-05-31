@@ -54,7 +54,10 @@
     NSMutableDictionary* family;
     NSIndexPath *selectedRowIndexPath = [self.tableView indexPathForSelectedRow];
     family = families[selectedRowIndexPath.row];
-    [segue.destinationViewController setFamily: family];
+    if([segue.destinationViewController respondsToSelector:@selector(setFamily:)]){
+        [segue.destinationViewController setFamily: family];
+    }
+
     [segue.destinationViewController setTitle: [family valueForKey:@"name"]];
 }
 

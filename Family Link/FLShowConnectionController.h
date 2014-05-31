@@ -11,6 +11,7 @@
 @interface FLShowConnectionController : UIViewController
 {
     IBOutlet UILabel* name;
+    IBOutlet UIScrollView *scrollview;
 }
 
 @property(nonatomic, strong) NSDictionary* connection;

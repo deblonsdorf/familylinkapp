@@ -12,6 +12,7 @@
 {
     IBOutlet UITextField *name_field;
     IBOutlet UITextField *mobile_field;
+    IBOutlet UIScrollView *scrollview;
 }
 
 @property(nonatomic, strong) NSDictionary* family;

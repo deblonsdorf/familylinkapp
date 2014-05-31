@@ -28,6 +28,11 @@
 {
     [super viewDidLoad];
     name.text = [_connection valueForKey:@"name"];
+    CGRect contentRect = CGRectZero;
+    for (UIView *view in scrollview.subviews) {
+        contentRect = CGRectUnion(contentRect, view.frame);
+    }
+    scrollview.contentSize = contentRect.size;
 }
 
 - (void)didReceiveMemoryWarning

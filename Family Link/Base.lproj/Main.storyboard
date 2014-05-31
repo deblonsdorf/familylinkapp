@@ -369,7 +369,7 @@
                     <navigationItem key="navigationItem" title="Family Name" id="pKf-B7-fcE">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="oAL-Ez-qxr">
                             <connections>
-                                <segue destination="pHx-Sj-kuX" kind="push" id="uwc-WP-edo"/>
+                                <segue destination="pHx-Sj-kuX" kind="modal" id="uwc-WP-edo"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -390,7 +390,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="linkbackground3.png" translatesAutoresizingMaskIntoConstraints="NO" id="4OL-Y3-UyO">
+                            <imageView autoresizesSubviews="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="linkbackground3.png" translatesAutoresizingMaskIntoConstraints="NO" id="4OL-Y3-UyO">
                                 <rect key="frame" x="0.0" y="63" width="320" height="505"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
@@ -516,6 +516,7 @@
                     </navigationItem>
                     <connections>
                         <outlet property="name" destination="zMn-Dl-L7R" id="0hl-ih-4cV"/>
+                        <outlet property="scrollview" destination="Cn1-44-2iZ" id="Xe8-TU-H8g"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ugR-8v-byr" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -674,6 +675,7 @@
                     <connections>
                         <outlet property="mobile_field" destination="RuL-So-BQN" id="TDd-D7-Ye3"/>
                         <outlet property="name_field" destination="PkX-6t-4dB" id="CIL-aJ-Ldj"/>
+                        <outlet property="scrollview" destination="3c6-EO-GeV" id="XJ3-Iv-aAN"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WnE-2f-vmz" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -699,6 +701,6 @@
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
         <segue reference="LhH-Kt-9gH"/>
-        <segue reference="uwc-WP-edo"/>
+        <segue reference="Eit-eX-5uB"/>
     </inferredMetricsTieBreakers>
 </document>

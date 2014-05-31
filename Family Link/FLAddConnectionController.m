@@ -30,6 +30,11 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     name_field.delegate = self;
+    CGRect contentRect = CGRectZero;
+    for (UIView *view in scrollview.subviews) {
+        contentRect = CGRectUnion(contentRect, view.frame);
+    }
+    scrollview.contentSize = contentRect.size;
 }
 
 - (void)didReceiveMemoryWarning
@@ -42,14 +47,14 @@
     if(textField.text.length > 1) {
         NSMutableDictionary* d = [NSMutableDictionary dictionaryWithObjectsAndKeys:textField.text, @"name", nil];
         [Family addConnection:d forFamily:_family];
+        [self dismissViewControllerAnimated:YES completion:nil];
     }
-    
-    [self dismissViewControllerAnimated:YES completion:nil];
+
     return YES;
 }
 
 -(IBAction)closeClicked:(id)sender
 {
-    [self dismissViewControllerAnimated:YES completion:nil];
+    [self.presentingViewController dismissViewControllerAnimated:YES completion:nil];
 }
 @end
