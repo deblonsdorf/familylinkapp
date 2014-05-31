@@ -28,6 +28,13 @@
 {
     [super viewDidLoad];
     name.text = [_connection valueForKey:@"name"];
+    email_address1.text = [_connection valueForKey:@"email"];
+    mobile_field1.text = @"hello";
+    CGRect contentRect = CGRectZero;
+    for (UIView *view in scrollview.subviews) {
+        contentRect = CGRectUnion(contentRect, view.frame);
+    }
+    scrollview.contentSize = contentRect.size;
 }
 
 - (void)didReceiveMemoryWarning

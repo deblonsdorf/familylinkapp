@@ -28,7 +28,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    
+    self.tableView.tableHeaderView = self.customHeaderView;
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
     
@@ -53,8 +53,11 @@
 {
     NSMutableDictionary* family;
     NSIndexPath *selectedRowIndexPath = [self.tableView indexPathForSelectedRow];
-    family = families[selectedRowIndexPath.row-1];
-    [segue.destinationViewController setFamily: family];
+    family = families[selectedRowIndexPath.row];
+    if([segue.destinationViewController respondsToSelector:@selector(setFamily:)]){
+        [segue.destinationViewController setFamily: family];
+    }
+
     [segue.destinationViewController setTitle: [family valueForKey:@"name"]];
 }
 
@@ -68,31 +71,35 @@
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     // Return the number of rows in the section.
-    return [families count]+1;
+    return [families count];
+}
+
+-(UIView *) customHeaderView {
+    if (!customHeaderView) {
+        customHeaderView = [[NSBundle mainBundle] loadNibNamed:@"Header1" owner:self options:nil][0];
+    }
+    
+    return customHeaderView;
 }
 
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    static NSString *FirstCellIdentifier = @"picklinkheader";
     static NSString *CellIdentifier = @"enterfamilyname";
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     NSInteger i = indexPath.row;
     
-    if(i == 0) {
-        cell = [tableView dequeueReusableCellWithIdentifier:FirstCellIdentifier];
-    } else {
-        if(cell) {
-            
-            if ([families count] != 0) {
-                UILabel* tf = (UILabel*)[cell viewWithTag:2];
-                tf.text =  [families[i-1] objectForKey:@"name"];
-            }
-            
-        } else {
-            cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
+    if(cell) {
+        
+        if ([families count] != 0) {
+            UILabel* tf = (UILabel*)[cell viewWithTag:2];
+            tf.text =  [families[i] objectForKey:@"name"];
         }
+        
+    } else {
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
     }
+
     
 
     
@@ -122,7 +129,7 @@ forRowAtIndexPath:(NSIndexPath *)indexPath {
     NSUInteger count = [families count];
     
     if (row < count) {
-        [families removeObjectAtIndex:row-1];
+        [families removeObjectAtIndex:row];
         [self.tableView reloadData];
     }
     

@@ -220,6 +220,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" id="KgX-oF-Ijk"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Etu-4T-lGH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -258,7 +259,7 @@
                                     </subviews>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <segue destination="gRK-0S-YPc" kind="modal" id="Mew-Vv-BoM"/>
+                                    <segue destination="tMq-4A-UV2" kind="push" id="c7y-Vm-AKp"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -315,7 +316,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="homeClicked:" destination="ZDW-v0-rhg" eventType="touchUpInside" id="en4-ai-kFd"/>
+                                    <action selector="cancelClicked:" destination="ZDW-v0-rhg" eventType="touchUpInside" id="ABA-ol-P7X"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="purplerectangle.png" translatesAutoresizingMaskIntoConstraints="NO" id="YaO-KD-WVK">
@@ -335,6 +336,9 @@
                                 <state key="normal" image="graysubmit.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="submitClicked:" destination="ZDW-v0-rhg" eventType="touchUpInside" id="kmg-2P-hax"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -358,12 +362,12 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <imageView key="tableFooterView" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="linkbackground3.png" id="H0t-DK-EQ0">
-                            <rect key="frame" x="0.0" y="80" width="320" height="384"/>
+                            <rect key="frame" x="0.0" y="144" width="320" height="384"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         </imageView>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="Individual" rowHeight="58" id="vJw-v5-yqp">
-                                <rect key="frame" x="0.0" y="22" width="320" height="58"/>
+                                <rect key="frame" x="0.0" y="86" width="320" height="58"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="vJw-v5-yqp" id="ti7-WP-rHS">
                                     <rect key="frame" x="0.0" y="0.0" width="287" height="57"/>
@@ -394,7 +398,7 @@
                     <navigationItem key="navigationItem" title="Family Name" id="pKf-B7-fcE">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="oAL-Ez-qxr">
                             <connections>
-                                <segue destination="pHx-Sj-kuX" kind="push" id="uwc-WP-edo"/>
+                                <segue destination="pHx-Sj-kuX" kind="modal" id="uwc-WP-edo"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -415,7 +419,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="linkbackground3.png" translatesAutoresizingMaskIntoConstraints="NO" id="4OL-Y3-UyO">
+                            <imageView autoresizesSubviews="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="linkbackground3.png" translatesAutoresizingMaskIntoConstraints="NO" id="4OL-Y3-UyO">
                                 <rect key="frame" x="0.0" y="63" width="320" height="505"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
@@ -543,7 +547,16 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
-                        <outlet property="name" destination="zMn-Dl-L7R" id="X9Z-wC-R2h"/>
+                        <outlet property="address_line1" destination="Hxg-sM-Bjq" id="AFF-wS-DW3"/>
+                        <outlet property="address_line2" destination="Vi2-JV-mhX" id="eNI-lL-vYV"/>
+                        <outlet property="address_line3" destination="h4o-M1-BgZ" id="EAp-R7-AbQ"/>
+                        <outlet property="anniversary1" destination="u6e-oi-mJ8" id="mVA-fe-bM7"/>
+                        <outlet property="birthday1" destination="RXw-MQ-yyE" id="4ak-dj-QJO"/>
+                        <outlet property="email_address1" destination="8iC-g8-34l" id="Uxj-la-C9y"/>
+                        <outlet property="mobile_field1" destination="MhL-2R-nwa" id="yMo-zr-ihs"/>
+                        <outlet property="name" destination="zMn-Dl-L7R" id="riS-vC-poK"/>
+                        <outlet property="other1" destination="7fc-xP-idJ" id="UBc-9g-ML9"/>
+                        <outlet property="scrollview" destination="Cn1-44-2iZ" id="Xe8-TU-H8g"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ugR-8v-byr" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -716,6 +729,7 @@
                         <outlet property="mobile_field" destination="RuL-So-BQN" id="TDd-D7-Ye3"/>
                         <outlet property="name_field" destination="PkX-6t-4dB" id="CIL-aJ-Ldj"/>
                         <outlet property="other" destination="OKv-qY-F9a" id="1Az-TZ-hWl"/>
+                        <outlet property="scrollview" destination="3c6-EO-GeV" id="XJ3-Iv-aAN"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WnE-2f-vmz" userLabel="First Responder" sceneMemberID="firstResponder"/>

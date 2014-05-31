@@ -13,6 +13,7 @@
     IBOutlet UITextField *name_field;
 }
 
--(IBAction)homeClicked:(id)sender;
+-(IBAction)cancelClicked:(id)sender;
+-(IBAction)submitClicked:(id)sender;
 
 @end

@@ -19,6 +19,7 @@
     IBOutlet UITextField *birthday;
     IBOutlet UITextField *anniversary;
     IBOutlet UITextField *other;
+    IBOutlet UIScrollView *scrollview;
 }
 
 @property(nonatomic, strong) NSDictionary* family;

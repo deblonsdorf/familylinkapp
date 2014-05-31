@@ -11,15 +11,15 @@
 @interface FLShowConnectionController : UIViewController
 {
     IBOutlet UILabel* name;
-    IBOutlet UITextField *mobile_field1;
-    IBOutlet UITextField *email_address1;
-    IBOutlet UITextField *address_line1;
-    IBOutlet UITextField *address_line2;
-    IBOutlet UITextField *address_line3;
-    IBOutlet UITextField *birthday1;
-    IBOutlet UITextField *anniversary1;
-    IBOutlet UITextField *other1;
-
+    IBOutlet UILabel *mobile_field1;
+    IBOutlet UILabel *email_address1;
+    IBOutlet UILabel *address_line1;
+    IBOutlet UILabel *address_line2;
+    IBOutlet UILabel *address_line3;
+    IBOutlet UILabel *birthday1;
+    IBOutlet UILabel *anniversary1;
+    IBOutlet UILabel *other1;
+    IBOutlet UIScrollView *scrollview;
 }
 
 -(IBAction)homeClicked:(id)sender;

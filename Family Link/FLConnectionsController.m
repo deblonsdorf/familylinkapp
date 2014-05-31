@@ -36,7 +36,7 @@
         [segue.destinationViewController setFamily: _family];
     } else {
         NSIndexPath *selectedRowIndexPath = [self.tableView indexPathForSelectedRow];
-        NSDictionary *connection = connections[selectedRowIndexPath.row-1];
+        NSDictionary *connection = connections[selectedRowIndexPath.row];
         [segue.destinationViewController setConnection: connection];
     }
 }
@@ -44,7 +44,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    
+    self.tableView.tableHeaderView = self.customHeaderView;
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
     
@@ -65,6 +65,15 @@
     // Dispose of any resources that can be recreated.
 }
 
+-(UIView *) customHeaderView {
+    if (!customHeaderView) {
+        customHeaderView = [[NSBundle mainBundle] loadNibNamed:@"Header2" owner:self options:nil][0];
+    }
+    
+    return customHeaderView;
+}
+
+
 #pragma mark - Table view data source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
@@ -75,7 +84,7 @@
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     // Return the number of rows in the section.
-    return [connections count]+1;
+    return [connections count];
 }
 
 
@@ -85,23 +94,16 @@
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     NSInteger i = indexPath.row;
     
-    
-    if(i == 0) {
-        cell = [tableView dequeueReusableCellWithIdentifier:@"Connections"];
-    } else {
-        if(cell) {
-            
-            if ([connections count] != 0) {
-                UILabel* tf = (UILabel*)[cell viewWithTag:3];
-                tf.text =  [connections[i-1] objectForKey:@"name"];
-            }
-            
-        } else {
-            cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
+    if(cell) {
+        
+        if ([connections count] != 0) {
+            UILabel* tf = (UILabel*)[cell viewWithTag:3];
+            tf.text =  [connections[i] objectForKey:@"name"];
         }
+        
+    } else {
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
     }
-    
-    
     
     return cell;
 }
@@ -129,7 +131,7 @@ forRowAtIndexPath:(NSIndexPath *)indexPath {
     NSUInteger count = [connections count];
     
     if (row < count) {
-        [connections removeObjectAtIndex:row-1];
+        [connections removeObjectAtIndex:row];
         [self.tableView reloadData];
     }
     

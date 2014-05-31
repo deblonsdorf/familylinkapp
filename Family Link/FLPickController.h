@@ -11,6 +11,7 @@
 @interface FLPickController : UITableViewController
 {
     NSMutableArray *families;
+    UIView *customHeaderView;
 }
 
 @end
